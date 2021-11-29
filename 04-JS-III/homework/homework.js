@@ -157,8 +157,8 @@ function mesesDelAño(array) {
   // "Enero", "Marzo" y "Noviembre", guardarlo en nuevo array y retornarlo.
   //Si alguno de los meses no está, devolver: "No se encontraron los meses pedidos"
   // Tu código:
-  let newArray = array.filter(e => e === "Enero" || e === "Marzo" || e === "Noviembre");
-  if(newArray.length === 0)return "No se encontraron los meses pedidos";
+  let newArray = array.filter(e => (e === "Enero" || e === "Marzo" || e === "Noviembre"));
+  if(newArray.length < 3)return "No se encontraron los meses pedidos";
   else return newArray;
 }
 
@@ -180,19 +180,22 @@ function breakStatement(numero) {
   //Pista: usá el statement 'break'
   // Tu código:
   let counter = 0;
-  let suma = 0;
+  let suma = numero;
   const newArray = [];
   while(counter < 10){
-    newArray.push(numero);
-    suma += numero;
-    counter++;
-    numero += 2;
+    
+    suma +=  2;
+    
+
     if(suma === counter){
-      return "Se interrumpió la ejecución";
       break;
+    }else{
+      newArray.push(suma);
+      counter++;
     }
   }
-  return newArray;
+  if(counter < 10)return "Se interrumpió la ejecución";
+  else return newArray;
 }
 
 
@@ -203,24 +206,19 @@ function continueStatement(numero) {
   //Cuando el número de iteraciones alcance el valor 5, no se suma en ese caso y se continua con la siguiente iteración
   //Pista: usá el statement 'continue'
   // Tu código:
-  let counter = 0;
-  let suma = 0;
-  const newArray = [];
-  while(counter < 10){
-    
-    if(counter === 5)continue;
-    else {
-      newArray.push(numero);
-      suma += numero; 
-      numero += 2;
+  let suma = numero;
+  let newArray = [];
+  for(let i = 0; i < 10; i++){
+    if(i === 5){
+      continue;
+    }else{
+      suma += 2;
+      newArray.push(suma);
     }
-    
-    counter++;
-  }
-  /*for(let i = 0; i < 10; i++){
 
-  }*/
+  }
   return newArray;
+  
 }
 
 
