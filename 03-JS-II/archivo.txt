@@ -1,0 +1,13 @@
+1. En un archivo de texto separado que debes crear, escribe explicaciones de los siguientes conceptos como si se lo estuvieras explicando a un niño de 12 años. Hacer esto te ayudará a descubrir rápidamente cualquier agujero en tu comprensión.
+
+* `for`
+* `&&`, `||`, `!`
+------------------------------------------------------------------------------------------
+-El for es como una rueda, la cual la podemos hacer girar las veces que queramos, y lo mejor de todo
+  mientras gira, dentro de la rueda va preparando una sorpresa, que no la puede mostrar mientras gira
+  o al final cuando para.
+-Los simbolos && significan y eso quiere decir que debemos cumplir dos condiciones, por ejemplo podemos salir a jugar solo si ya terminamos de comer y nos bañamos los dientes
+ los simbolos || significan o, osea que debemos cumplir una condicion, por ejemplo podemos salir a jugar si limpiamos la sala o el dormitorio.
+ el simbolo ! es para negar algo que no hemos hecho o cumplido, por ejemplo si alguien nos pregunta si cogimos un juguete y nosotros no fuimos, podemos decir que no,
+ ya que nosotros no cogimos nada.
+  
