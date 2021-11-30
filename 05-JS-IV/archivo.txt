@@ -1,0 +1,16 @@
+1. En un archivo de texto separado que debes crear, escribe explicaciones de los siguientes conceptos como si se lo estuvieras explicando a un niño de 12 años. Hacer esto te ayudará a descubrir rápidamente cualquier agujero en tu comprensión.
+
+	* Objetos
+	* Propiedades
+	* Métodos
+	* Bucle `for…in`
+	* Notación de puntos vs notación de corchetes
+------------------------------------------------------------------------------------------------
+-Un objeto es una caja, donde podemos introducir mas cajas con nombres en la cuales dentro llevan algun valor, pueden ser numeros, palabras, letras, etc
+ cada caja puede tener un valor, y si esta vacia, se lo podemos agregar.
+-Las propiedades son las cajas que introducimos dentro de la gran caja llamada objeto, las cuales puede tener algo de valor dentro.
+-Los metodos estan dentro de la gran caja llamada objeto, estos metodos nos devuelven algun valor el cual dentro ha hecho un proceso.
+-El bucle For in, nos ayuda a revisar cada propiedad que hay en un objeto, de esa manera podemos saber su valor, o podemos agregarselo, o cambiarselo.
+-Notacion de puntos, ponemos el nombre del objeto un punto, y el nombre de la propiedad, de esa manera, podemos conocer su valor, cambiarlo o agregarlo
+ Notacion de corchetes, ponemos el nombre del objeto luego unos corchetes, dentro de los corchetes escribimos el nombre de la propiedad dentro de comillas
+ igual podemos cambiar, agregar, conocer su valor.
