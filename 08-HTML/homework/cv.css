@@ -18,15 +18,17 @@ h1{
     width: 25%;
     outline: dashed black;
 }
-/*section{
+section{
     display: flex;
     align-items: center;
     justify-content: center;
-}*/
+    flex-direction: column;
+}
 h2{
     background-color: black;
     color: aliceblue;
 }
 h4{
+    background-color: aqua;
     
 }
