@@ -1,0 +1,32 @@
+body{
+    background: url("https://image.freepik.com/vector-gratis/fondo-geometrico-plano_23-2148967370.jpg");
+    height: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+header{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+}
+h1{
+    text-align: center;
+    background-color: aliceblue;
+    width: 25%;
+    outline: dashed black;
+}
+/*section{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}*/
+h2{
+    background-color: black;
+    color: aliceblue;
+}
+h4{
+    
+}
